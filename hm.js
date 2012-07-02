@@ -8,7 +8,7 @@
 /*global require, XMLHttpRequest, ActiveXObject, define, process, window,
 console */
 
-define(['esprima', 'module'], function (esprima, module) {
+define(['esprima-harmony', 'module'], function (esprima, module) {
     'use strict';
 
     var fs, getXhr,
