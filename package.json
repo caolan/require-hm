@@ -2,14 +2,16 @@
     "name": "hm",
     "description": "RequireJS loader plugin that supports some parts of ECMAScript Harmony Modules",
     "version": "0.2.0-jam.1",
-    "dependencies": {
-        "esprima-harmony": "1.0.x"
-    },
+    "categories": [
+        "Loader plugins",
+        "Shims"
+    ],
     "browser": {
         "main": "hm.js",
         "include": [
             "README.md",
-            "hm.js"
+            "hm.js",
+            "esprima.js"
         ]
     },
     "volo": {
